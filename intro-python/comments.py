@@ -1,5 +1,5 @@
 """
-Aula 2 - LIPAI - Comentários em Python
+Aula 3 - LIPAI - Comentários em Python
 """
 
 # Comentário de uma linha
