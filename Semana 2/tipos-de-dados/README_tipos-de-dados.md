@@ -238,15 +238,84 @@ for aluno in alunos:
 ## Código dos Exercícios
 ### Exercício 1
 ```python
+""" 
+Exercício 1 - Tipos de Dados
 
+Solicite ao usuário 3 números.
+Armazene os valores em uma lista.
+Ao final, apresente o menor e o maior elemento.
+"""
+numbers = []
+
+for i in range(3):
+    num = int(input(f"Enter the {i} number: "))
+    numbers.append(num)
+
+print(f"higher Number: {max(numbers)} - Lower Number: {min(numbers)}")
 ```
 
 ### Exercício 2
 ```python
+""" 
+Exercício 2 - Tipos de Dados
 
+Solicite ao usuário o mês do ano em formato numérico: 1, 2, 3, ..., 12.
+Apresente o nome do mês correspondente (ex.: entrada 3 → saída == Março).
+Implementar usando uma Tupla (tuple).
+"""
+
+nome_dos_meses = (
+    "Janeiro",
+    "Fevereiro",
+    "Marco",
+    "Abril",
+    "Maio",
+    "Junho",
+    "Julho",
+    "Agosto",
+    "Setembro",
+    "outubro",
+    "Novembro",
+    "Dezembro"
+)
+
+numero_do_mes = int(input("Digite o número do mês desejado: "))
+
+if 1 <= numero_do_mes <= 12:
+    print(f"Mês escolhido: {nome_dos_meses[numero_do_mes - 1]}")
+else:
+    print("Mês inválido")
 ```
 
 ### Exercício 3
 ```python
+""" 
+Exercício 3 - Tipos de Dados
 
+Solicite ao usuário o mês do ano em formato numérico: 1, 2, 3, ..., 12.
+Apresente o nome do mês correspondente (ex.: entrada 3 → saída
+Março).
+Implementar usando um Dicionário (dict).
+"""
+meses = {
+    1:"Janeiro",
+    2:"Fevereiro",
+    3:"Marco",
+    4:"Abril",
+    5:"Maio",
+    6:"Junho",
+    7:"Julho",
+    8:"Agosto",
+    9:"Setembro",
+    10:"outubro",
+    11:"Novembro",
+    12:"Dezembro"
+}
+
+numero_do_mes = int(input("Digite o número do mês desejado: "))
+
+if 1 <= numero_do_mes <= 12:
+    print(f"Mês escolhido: {meses[numero_do_mes]}")
+else:
+    print("Mês inválido")
 ```
