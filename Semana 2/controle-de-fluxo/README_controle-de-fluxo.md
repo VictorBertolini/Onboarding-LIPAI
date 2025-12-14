@@ -2,7 +2,7 @@
 
 ### Nome: Victor Bertolini de Sousa
 
-### Github: https://github.com/VictorBertolini/Onboarding-LIPAI/
+### Github: https://github.com/VictorBertolini/Onboarding-LIPAI/blob/main/Semana%202/controle-de-fluxo/README_controle-de-fluxo.md
 
 ## Código das videoaulas
 

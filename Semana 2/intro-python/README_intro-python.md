@@ -2,7 +2,7 @@
 
 ### Nome: Victor Bertolini de Sousa
 
-### Github: https://github.com/VictorBertolini/Onboarding-LIPAI/tree/main/
+### Github: https://github.com/VictorBertolini/Onboarding-LIPAI/blob/main/Semana%202/intro-python/README_intro-python.md
 
 ## Código das videoaulas
 

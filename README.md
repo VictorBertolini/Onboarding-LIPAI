@@ -24,5 +24,6 @@ Afim de melhorar minhas habilidades em visão computacional voltada à área da 
 
 ### Semana 2:
 - [Introdução ao Python](/Semana%202/intro-python/README_intro-python.md)
-- [Controle de Fluxo](/Semana%202/controle-de-fluxo/)
+- [Controle de Fluxo](/Semana%202/controle-de-fluxo/README_controle-de-fluxo.md)
+- [Tipos de Dados](/Semana%202/tipos-de-dados/README_tipos-de-dados.md)
 
