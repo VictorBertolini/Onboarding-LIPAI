@@ -2,7 +2,7 @@
 
 ### Nome: Victor Bertolini de Sousa
 
-### Github: https://github.com/VictorBertolini/Onboarding-LIPAI/blob/main/Semana%202
+### Github: https://github.com/VictorBertolini/Onboarding-LIPAI/blob/main/Semana%202/tipos-de-dados/README_tipos-de-dados.md
 
 ## Código das videoaulas
 
