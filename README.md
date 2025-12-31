@@ -1,4 +1,4 @@
-# Onboarding LIPAi
+# Onboarding LIPAI
 
 ## Aluno
 Victor Bertolini de Sousa
