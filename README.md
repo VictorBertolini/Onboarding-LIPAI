@@ -27,3 +27,7 @@ Afim de melhorar minhas habilidades em visão computacional voltada à área da 
 - [Controle de Fluxo](/Semana%202/controle-de-fluxo/README_controle-de-fluxo.md)
 - [Tipos de Dados](/Semana%202/tipos-de-dados/README_tipos-de-dados.md)
 
+### Semana 3:
+- [Depuração](/Semana%203/depuracao/README_depuracao.md)
+- [Arquivos](/Semana%203/arquivos/README_arquivos.md)
+- [Orientação à Objetos](/Semana%203/orientacao-a-objetos/README_orietacao-a-objetos.md)
