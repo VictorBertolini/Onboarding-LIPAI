@@ -1,17 +1,13 @@
-""" Exercício 3 - Orientação a Objetos 
+""" Exercício 4 - Orientação a Objetos
 
-Classe Participacao
-○ Implemente uma classe Participacao com os seguintes atributos:
-■ codigo – identificador da participação (pode ser inteiro ou
-string, você escolhe, mas seja consistente)
-■ data_inicio
-■ data_fim
-■ aluno – um objeto da classe Aluno
-■ projeto – um objeto da classe Projeto associado
-○ Você pode começar armazenando as datas como strings (ex:
-"2025-03-01"). Em atividades futuras, podemos trabalhar com tipos de
-data mais específicos.
-
+Lista de participações no Projeto
+○ Altere a classe Projeto para:
+■ Incluir um atributo do tipo list chamado participacoes.
+■ Essa lista deve armazenar objetos da classe Participacao.
+○ Implemente também o método:
+def add_participacao(self, participacao):
+Adiciona uma participação ao projeto.
+...
 """
 
 class Aluno:
@@ -60,6 +56,7 @@ class Projeto:
         self.codigo = codigo
         self.titulo = titulo
         self.responsavel = responsavel
+        self.participacoes = [] 
 
     @property
     def codigo(self):
@@ -100,6 +97,10 @@ class Projeto:
         if isinstance(other, Projeto):
             return self.codigo == other.codigo
         return False
+
+    def add_participacao(self, participacao):
+        self.participacoes.append(participacao)
+
 
 class Participacao:
     def __init__(self, codigo, data_inicio, data_fim, aluno, projeto):
@@ -155,16 +156,20 @@ class Participacao:
     def projeto(self, value):
         self._projeto = value
 
+aluno = Aluno.from_string("SP0101,João da Silva,joao.silva@usp.br")
+projeto = Projeto.from_string("1,Desenvolvimento de Software,Prof. Silva")
 
-Participacao1 = Participacao(
+participacao = Participacao(
     codigo="P001",
     data_inicio="2025-03-01",
     data_fim="2025-12-31",
-    aluno=Aluno.from_string("SP0101,João da Silva,joao.silva@usp.br"),
-    projeto=Projeto.from_string("1,Desenvolvimento de Software,Prof. Silva"))
+    aluno=aluno,
+    projeto=projeto
+)
 
-print(Participacao1.codigo)
-print(Participacao1.data_inicio)
-print(Participacao1.data_fim)
-print(Participacao1.aluno.nome)
-print(Participacao1.projeto.titulo)
+projeto.add_participacao(participacao)
+
+print(len(projeto.participacoes))  
+print(projeto.participacoes[0].aluno.nome)  
+
+
